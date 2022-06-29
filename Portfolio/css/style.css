@@ -1,0 +1,202 @@
+.body{
+    font-size: 14px;
+    color: #333;
+    background-color:#fff;
+    letter-spacing: 10px;
+}
+.background-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.Title-Message {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -125px;
+
+}
+
+.Title-Message .heading p{
+
+    color: #ffff;
+    text-shadow: 0px 2px 5px rgb(0 0 0 / 40%);
+    font-weight: 200;
+}
+    
+
+.Title-Message .heading .main{
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.Title-Message .heading .sub {
+    font-size: 30px;
+    letter-spacing: 18px;
+}
+
+
+.section{
+    padding: 100px 0;
+
+    
+}
+
+.aboutimage{
+    height: 100%;
+    margin-bottom: -50px;
+}
+.row .col-md-7{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.col-md-7 h4{
+    font-size: xx-large;
+    font-weight: 10000;
+}
+.skillsSection{
+     background-color: rgb(122, 69, 33);
+     color: rgb(250, 175, 109);
+     
+}
+.skillsSection .col-md-12 .text-center {
+    margin: -100px;
+    text-align: center;
+    
+}
+
+.skill{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chart{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    text-align: center;
+}
+.chart canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.chart .percent{
+    color: rgb(224, 137, 86);
+    line-height: 160px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after{
+    content: '%';
+}
+
+.squareItem {
+    margin-top: 30px;
+    position: relative;
+}
+.squareInnerContainer {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    width: 30%;
+    border-bottom: 2px solid rgba(0, 0, 0);
+
+}
+.squareInnerContainer:before{
+    right: 0px;
+}
+.squareInnerContainer:after{
+    left: 0px;
+}
+
+.squareContent h2{
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: rgb(122, 69, 33);
+}
+
+.squareContent h3{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.contactSection{
+    background-color: rgb(241, 219, 200);
+    color:rgb(85, 42, 5) ;
+}
+
+.contactButton{
+    color: rgb(85,42,5);
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid rgb(85,42,5);
+    border-radius: 2px;
+}
+
+.contactButton:hover{
+    text-decoration: none;
+    color:c;
+    background-color: rgb(122, 69, 33);
+}
+
+.copyrightSection{
+    background-color: rgb(48, 19, 6);
+    color:tan;
+    padding: 30px 5px;
+}
+
+.copyrightSection p{
+    margin: 0;
+}
+
+#navigation {
+    background-color: rgba(197, 194, 194, 0.801);
+    padding: 20px 10px;
+    z-index: 100;
+}
+
+#navigation li{
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: rgb(53, 51, 50);
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+    color: rgb(53, 51, 50);
+}
+
+.navbar-toggler-icon{
+    background-size: 100%;
+    background: url(../img/icons8-menu-24.png);
+}
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
+
